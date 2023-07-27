@@ -1,0 +1,158 @@
+body {
+  max-width: 1728px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 46px 126px 50px;
+}
+
+.header__logo-image {
+  display: block;
+  width: 210px;
+  height: 60px;
+}
+
+.header__menu {
+  color: #363062;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  
+}
+
+.header__menu-list {
+  display: flex;
+  gap: 45px;
+}
+
+.header__menu-list-item {
+  display: inline;
+}
+
+.header__menu-link {
+  text-decoration: none;
+}
+
+.log-button {
+  margin-top: 2pxs;
+  padding: 8px 37px 8px 44px;
+  display: flex;
+  gap: 11px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 23px;
+  background-color: #363062;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.log-button-arrow {
+  width: 35px;
+  height: 35px;
+}
+
+.company-link {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding: 68px 0;
+  background-color: rgba(54, 48, 98, 0.12);
+}
+
+.company-logo {
+  height: 48px;
+}
+
+.cover {
+  padding: 90px 0 103px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 0 126px;
+}
+
+.cover__description {
+  display: flex;
+  flex-direction: column;
+  padding: 58px 0 0 ;
+}
+
+.cover__description-title {
+  color: #363062;
+  font-family: 'Poppins';
+  font-size: 85px;
+  font-weight: 600;
+  line-height: 125.5%;
+  letter-spacing: -5.1px;
+}
+
+.cover__description-title-accent {
+  color: #8051AF;
+}
+
+.cover__description-text {
+  color: rgba(54, 48, 98, 0.84);
+  font-size: 23px;
+  font-weight: normal;
+  line-height: 161.5%;
+  margin: 24px 0 40px;
+}
+
+.cover__description-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 55px;
+  margin-bottom: 128px;
+}
+
+.cover-button {
+  padding: 8px 37px 8px 44px;
+  display: inline-flex;
+  align-content: center;
+  gap: 9px;
+  color: #363062;
+  font-family: 'Poppins', sans-serif;
+  font-size: 23px;
+  font-weight: medium;
+  border-radius: 50px;
+  border: none;
+  background-color: rgba(54, 48, 98, 0.17);
+  cursor: pointer;
+}
+
+.cover-button-arrow {
+  width: 35px;
+  height: 35px;
+}
+
+.cover__description-link_additional {
+  color: #363062;
+  font-family: 'Poppins';
+  font-size: 23px;
+  font-weight: medium;
+  text-decoration: none;
+}
+
+.cover__description-community {
+  background-color: #E3C7FF;
+  display: flex;
+  gap: 27px;
+}
+
+.cover__image-background {
+  width: 832px;
+  height: 750px;
+  background-color: #E3C7FF;
+  border-radius: 20px 0 0 20px;
+}
+
+.cover__image-dashboard {
+  margin: 71px 0 0 88px;
+  width: 744px;
+  height: 679px;
+  border-radius: 30px 0 0 0;
+}
