@@ -498,7 +498,8 @@ body {
   justify-content: space-between;
 }
 
-.footer__underlink-text {
+.footer__udnerlink-text {
+  color: rgba(54, 48, 98, 0.84);
   font-size: 24px;
   font-weight: 500;
   line-height: 161.5%;
