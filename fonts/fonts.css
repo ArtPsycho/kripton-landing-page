@@ -1,7 +1,7 @@
 @font-face {
     font-family: Poppins;
     src: url(./Poppins-Medium.ttf) format('truetype');
-    font-weight: medium;
+    font-weight: 500;
     font-display: swap;
 }
 
@@ -22,7 +22,7 @@
 @font-face {
   font-family: Inter;
   src: url(./Inter-Medium.ttf) format('truetype');
-  font-weight: medium;
+  font-weight: 500;
   font-display: swap;
 }
 
